@@ -46,3 +46,13 @@ or
 ```
 yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-unused-imports -D
 ```
+
+4. (option) add base (vite, github pages)
+`vite.config.ts`
+```
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  base: './',
+})
+```
